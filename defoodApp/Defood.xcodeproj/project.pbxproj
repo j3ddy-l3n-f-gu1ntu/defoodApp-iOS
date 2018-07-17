@@ -12,6 +12,7 @@
 		91ADEABB20FD7786002CB7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91ADEAB920FD7786002CB7AA /* Main.storyboard */; };
 		91ADEABD20FD7787002CB7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91ADEABC20FD7787002CB7AA /* Assets.xcassets */; };
 		91ADEAC020FD7787002CB7AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91ADEABE20FD7787002CB7AA /* LaunchScreen.storyboard */; };
+		91E7ED6020FE9877009ACE01 /* PickingFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7ED5F20FE9877009ACE01 /* PickingFoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		91ADEABC20FD7787002CB7AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91ADEABF20FD7787002CB7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91ADEAC120FD7787002CB7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E7ED5F20FE9877009ACE01 /* PickingFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickingFoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +57,22 @@
 			isa = PBXGroup;
 			children = (
 				91ADEAB520FD7786002CB7AA /* AppDelegate.swift */,
-				91ADEAB720FD7786002CB7AA /* ViewController.swift */,
-				91ADEAB920FD7786002CB7AA /* Main.storyboard */,
 				91ADEABC20FD7787002CB7AA /* Assets.xcassets */,
+				91ADEAB920FD7786002CB7AA /* Main.storyboard */,
 				91ADEABE20FD7787002CB7AA /* LaunchScreen.storyboard */,
 				91ADEAC120FD7787002CB7AA /* Info.plist */,
+				91E7ED5E20FE9852009ACE01 /* Controllers */,
 			);
 			path = Defood;
+			sourceTree = "<group>";
+		};
+		91E7ED5E20FE9852009ACE01 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				91ADEAB720FD7786002CB7AA /* ViewController.swift */,
+				91E7ED5F20FE9877009ACE01 /* PickingFoodViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91ADEAB820FD7786002CB7AA /* ViewController.swift in Sources */,
+				91E7ED6020FE9877009ACE01 /* PickingFoodViewController.swift in Sources */,
 				91ADEAB620FD7786002CB7AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

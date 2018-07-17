@@ -43,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="672.79999999999995" y="132.68365817091455"/>
         </scene>
-        <!--Picking Food View Controller-->
+        <!--View Controller-->
         <scene sceneID="7OE-Ll-tYT">
             <objects>
-                <viewController id="f8o-xw-d8k" customClass="PickingFoodViewController" customModule="Defood" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="f8o-xw-d8k" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1jq-Vo-mtS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -108,9 +108,6 @@
                         <viewLayoutGuide key="safeArea" id="xUI-rO-Zqo"/>
                     </view>
                     <navigationItem key="navigationItem" id="oPE-gW-oM1"/>
-                    <connections>
-                        <outlet property="pickingFoodTextField" destination="DnJ-wb-goF" id="1yr-IN-uIC"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v0g-8m-J1H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
