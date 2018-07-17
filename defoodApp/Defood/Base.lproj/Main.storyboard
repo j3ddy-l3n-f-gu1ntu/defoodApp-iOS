@@ -24,7 +24,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Press to Enter"/>
                                 <connections>
-                                    <segue destination="reK-jJ-aaa" kind="show" id="yng-ga-gf4"/>
+                                    <action selector="enterButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a01-cq-03G"/>
+                                    <segue destination="reK-jJ-aaa" kind="show" identifier="enterLocation" id="yng-ga-gf4"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Defood" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odw-ch-wdJ">

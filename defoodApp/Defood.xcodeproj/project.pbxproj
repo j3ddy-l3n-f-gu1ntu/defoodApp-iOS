@@ -54,14 +54,46 @@
 		91ADEAB420FD7786002CB7AA /* Defood */ = {
 			isa = PBXGroup;
 			children = (
+				B32FE86220FE98B500E312E5 /* Start Menu */,
+				B32FE86120FE988800E312E5 /* Result Menu */,
+				B32FE86020FE987100E312E5 /* Cuisine Preference */,
+				B32FE85F20FE985500E312E5 /* Location Inputs */,
 				91ADEAB520FD7786002CB7AA /* AppDelegate.swift */,
-				91ADEAB720FD7786002CB7AA /* ViewController.swift */,
 				91ADEAB920FD7786002CB7AA /* Main.storyboard */,
 				91ADEABC20FD7787002CB7AA /* Assets.xcassets */,
 				91ADEABE20FD7787002CB7AA /* LaunchScreen.storyboard */,
 				91ADEAC120FD7787002CB7AA /* Info.plist */,
 			);
 			path = Defood;
+			sourceTree = "<group>";
+		};
+		B32FE85F20FE985500E312E5 /* Location Inputs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Location Inputs";
+			sourceTree = "<group>";
+		};
+		B32FE86020FE987100E312E5 /* Cuisine Preference */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Cuisine Preference";
+			sourceTree = "<group>";
+		};
+		B32FE86120FE988800E312E5 /* Result Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Result Menu";
+			sourceTree = "<group>";
+		};
+		B32FE86220FE98B500E312E5 /* Start Menu */ = {
+			isa = PBXGroup;
+			children = (
+				91ADEAB720FD7786002CB7AA /* ViewController.swift */,
+			);
+			path = "Start Menu";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
