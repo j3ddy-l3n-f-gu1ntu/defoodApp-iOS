@@ -21,7 +21,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYV-H0-jPu">
                                 <rect key="frame" x="0.0" y="532" width="375" height="47"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" title="Next"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="reK-jJ-aaa" kind="show" id="yng-ga-gf4"/>
                                 </connections>
@@ -36,7 +38,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.6705882352941176" green="1" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="odw-ch-wdJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="C6K-oC-2YP"/>
                             <constraint firstItem="cYV-H0-jPu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ONK-i7-taV"/>
@@ -143,13 +145,15 @@
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICu-0B-z5A">
                                     <rect key="frame" x="8" y="0.0" width="58" height="36"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" title="Reset"/>
+                                    <state key="normal" title="Reset">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
                                     <connections>
                                         <segue destination="reK-jJ-aaa" kind="show" id="OIO-sb-yhV"/>
                                     </connections>
                                 </button>
                             </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" red="0.94901960784313721" green="0.50588235294117645" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="g1v-eA-2NW">
@@ -224,7 +228,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.96862745098039216" green="0.94117647058823528" blue="0.32156862745098036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ub2-ge-646" firstAttribute="trailing" secondItem="Ong-Lp-XI4" secondAttribute="trailing" id="4g5-hI-mxl"/>
                             <constraint firstItem="45A-8q-bJP" firstAttribute="leading" secondItem="ub2-ge-646" secondAttribute="leading" id="Ahw-cF-32K"/>
