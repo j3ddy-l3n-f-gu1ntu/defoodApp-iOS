@@ -206,9 +206,6 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="yourLocation:" destination="xaC-od-wdW" eventType="editingDidEnd" id="6q0-aT-lHq"/>
-                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Put in your Friend's Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ong-Lp-XI4">
                                 <rect key="frame" x="0.0" y="335" width="375" height="21"/>
@@ -262,12 +259,11 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hTv-rF-Yjv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="xaC-od-wdW" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1469.5999999999999" y="135.38230884557723"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="XKF-tD-rsS"/>
+        <segue reference="yng-ga-gf4"/>
     </inferredMetricsTieBreakers>
 </document>
