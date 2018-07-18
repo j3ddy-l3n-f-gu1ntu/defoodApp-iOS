@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		297ECF6A64AE416C7277F77E /* Pods_Defood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B3526FE89C47A0D4022FAB /* Pods_Defood.framework */; };
+		917E44B520FEECA6006B1D5B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917E44B420FEECA5006B1D5B /* Default-568h@2x.png */; };
 		91ADEAB620FD7786002CB7AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ADEAB520FD7786002CB7AA /* AppDelegate.swift */; };
 		91ADEAB820FD7786002CB7AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ADEAB720FD7786002CB7AA /* ViewController.swift */; };
 		91ADEABB20FD7786002CB7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91ADEAB920FD7786002CB7AA /* Main.storyboard */; };
 		91ADEABD20FD7787002CB7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91ADEABC20FD7787002CB7AA /* Assets.xcassets */; };
-		91ADEAC020FD7787002CB7AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91ADEABE20FD7787002CB7AA /* LaunchScreen.storyboard */; };
 		91E7ED6020FE9877009ACE01 /* PickingFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7ED5F20FE9877009ACE01 /* PickingFoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01B3526FE89C47A0D4022FAB /* Pods_Defood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Defood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA5CBEE0D635DDC9C2BE10C /* Pods-Defood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Defood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Defood/Pods-Defood.debug.xcconfig"; sourceTree = "<group>"; };
+		8DF8D9E8433BB3FA1115EF62 /* Pods-Defood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Defood.release.xcconfig"; path = "Pods/Target Support Files/Pods-Defood/Pods-Defood.release.xcconfig"; sourceTree = "<group>"; };
+		917E44B420FEECA5006B1D5B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		91ADEAB220FD7786002CB7AA /* Defood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Defood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91ADEAB520FD7786002CB7AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91ADEAB720FD7786002CB7AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		91ADEABA20FD7786002CB7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91ADEABC20FD7787002CB7AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		91ADEABF20FD7787002CB7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91ADEAC120FD7787002CB7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91E7ED5F20FE9877009ACE01 /* PickingFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickingFoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				297ECF6A64AE416C7277F77E /* Pods_Defood.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79CDD9B7BDAD5DC20B2ED783 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AA5CBEE0D635DDC9C2BE10C /* Pods-Defood.debug.xcconfig */,
+				8DF8D9E8433BB3FA1115EF62 /* Pods-Defood.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		91ADEAA920FD7786002CB7AA = {
 			isa = PBXGroup;
 			children = (
+				917E44B420FEECA5006B1D5B /* Default-568h@2x.png */,
 				91ADEAB420FD7786002CB7AA /* Defood */,
 				91ADEAB320FD7786002CB7AA /* Products */,
+				79CDD9B7BDAD5DC20B2ED783 /* Pods */,
+				D99459444776227C613CFE7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,7 +76,6 @@
 				91ADEAB520FD7786002CB7AA /* AppDelegate.swift */,
 				91ADEABC20FD7787002CB7AA /* Assets.xcassets */,
 				91ADEAB920FD7786002CB7AA /* Main.storyboard */,
-				91ADEABE20FD7787002CB7AA /* LaunchScreen.storyboard */,
 				91ADEAC120FD7787002CB7AA /* Info.plist */,
 				91E7ED5E20FE9852009ACE01 /* Controllers */,
 			);
@@ -75,6 +91,14 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		D99459444776227C613CFE7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01B3526FE89C47A0D4022FAB /* Pods_Defood.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +106,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91ADEAC420FD7787002CB7AA /* Build configuration list for PBXNativeTarget "Defood" */;
 			buildPhases = (
+				53C10E504AE8293F6A800053 /* [CP] Check Pods Manifest.lock */,
 				91ADEAAE20FD7786002CB7AA /* Sources */,
 				91ADEAAF20FD7786002CB7AA /* Frameworks */,
 				91ADEAB020FD7786002CB7AA /* Resources */,
+				81903F0C6F169781F532A434 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,13 +159,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91ADEAC020FD7787002CB7AA /* LaunchScreen.storyboard in Resources */,
+				917E44B520FEECA6006B1D5B /* Default-568h@2x.png in Resources */,
 				91ADEABD20FD7787002CB7AA /* Assets.xcassets in Resources */,
 				91ADEABB20FD7786002CB7AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53C10E504AE8293F6A800053 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Defood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81903F0C6F169781F532A434 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Defood/Pods-Defood-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Defood/Pods-Defood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		91ADEAAE20FD7786002CB7AA /* Sources */ = {
@@ -161,14 +226,6 @@
 				91ADEABA20FD7786002CB7AA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		91ADEABE20FD7787002CB7AA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91ADEABF20FD7787002CB7AA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -290,6 +347,7 @@
 		};
 		91ADEAC520FD7787002CB7AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA5CBEE0D635DDC9C2BE10C /* Pods-Defood.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -308,6 +366,7 @@
 		};
 		91ADEAC620FD7787002CB7AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF8D9E8433BB3FA1115EF62 /* Pods-Defood.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
