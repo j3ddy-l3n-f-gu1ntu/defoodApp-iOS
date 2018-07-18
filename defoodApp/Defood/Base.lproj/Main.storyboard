@@ -18,20 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYV-H0-jPu">
-                                <rect key="frame" x="161" y="531" width="53" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="Next"/>
-=======
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYV-H0-jPu">
                                 <rect key="frame" x="0.0" y="532" width="375" height="47"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 </state>
->>>>>>> devbranch
                                 <connections>
                                     <segue destination="reK-jJ-aaa" kind="show" id="yng-ga-gf4"/>
                                 </connections>
@@ -94,14 +86,8 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-<<<<<<< HEAD
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Food" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DnJ-wb-goF">
-                                                <rect key="frame" x="139" y="72" width="97" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-=======
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2To-dZ-vqk">
                                                 <rect key="frame" x="5" y="66" width="365" height="30"/>
->>>>>>> devbranch
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -111,12 +97,9 @@
                                             <constraint firstItem="9Li-TZ-Hbe" firstAttribute="leading" secondItem="qkv-1r-f5a" secondAttribute="leading" constant="10" id="7oZ-7s-Poj"/>
                                             <constraint firstItem="9Li-TZ-Hbe" firstAttribute="top" secondItem="qkv-1r-f5a" secondAttribute="top" constant="29" id="JAy-eu-1K0"/>
                                             <constraint firstAttribute="trailing" secondItem="9Li-TZ-Hbe" secondAttribute="trailing" constant="10" id="PcN-BV-b5H"/>
-<<<<<<< HEAD
-=======
                                             <constraint firstItem="2To-dZ-vqk" firstAttribute="top" secondItem="9Li-TZ-Hbe" secondAttribute="bottom" constant="8" symbolic="YES" id="aRj-Zq-s6C"/>
                                             <constraint firstAttribute="trailing" secondItem="2To-dZ-vqk" secondAttribute="trailing" constant="5" id="j8Y-bw-ODG"/>
                                             <constraint firstItem="2To-dZ-vqk" firstAttribute="leading" secondItem="qkv-1r-f5a" secondAttribute="leading" constant="5" id="pK2-km-uhH"/>
->>>>>>> devbranch
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ph6-WU-36s">
@@ -148,9 +131,6 @@
                         <viewLayoutGuide key="safeArea" id="xUI-rO-Zqo"/>
                     </view>
                     <navigationItem key="navigationItem" id="oPE-gW-oM1"/>
-                    <connections>
-                        <outlet property="pickingFoodTextField" destination="DnJ-wb-goF" id="1yr-IN-uIC"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v0g-8m-J1H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -227,17 +207,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-<<<<<<< HEAD
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Put in your Friend's Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ong-Lp-XI4">
-                                <rect key="frame" x="23" y="335" width="283" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-=======
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Put in your Friend's Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ong-Lp-XI4">
                                 <rect key="frame" x="0.0" y="335" width="375" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="NuX-Mm-gWD"/>
                                 </constraints>
->>>>>>> devbranch
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
