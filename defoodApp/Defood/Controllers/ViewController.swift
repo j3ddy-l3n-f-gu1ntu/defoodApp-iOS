@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import GoogleMaps
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //put this is pickingLocation file
+        let camera = GMSCameraPosition.camera(withLatitude: -33.86, longitude: 151.20, zoom: 6)
+        let mapView = GMSMapView.map(withFrame: .zero, camera: camera)
+        mapView.isMyLocationEnabled = true
+        self.view = mapView
+        
     }
 
     override func didReceiveMemoryWarning() {
