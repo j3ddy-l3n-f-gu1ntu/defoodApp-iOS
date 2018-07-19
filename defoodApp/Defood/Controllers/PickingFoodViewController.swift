@@ -14,7 +14,8 @@ class PickingFoodViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let restaurantType = pickingFoodTextField.text
+        var restaurantType = pickingFoodTextField?.text
+        
         
         // Do any additional setup after loading the view.
     }

@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         mapView.isMyLocationEnabled = true
         self.view = mapView
         
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

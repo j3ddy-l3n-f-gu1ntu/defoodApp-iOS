@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		297ECF6A64AE416C7277F77E /* Pods_Defood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B3526FE89C47A0D4022FAB /* Pods_Defood.framework */; };
 		917E44B520FEECA6006B1D5B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917E44B420FEECA5006B1D5B /* Default-568h@2x.png */; };
+		917E44BA210020BA006B1D5B /* CoordinateController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E44B9210020BA006B1D5B /* CoordinateController1.swift */; };
+		917E44BC21002123006B1D5B /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E44BB21002123006B1D5B /* FoodViewController.swift */; };
 		91ADEAB620FD7786002CB7AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ADEAB520FD7786002CB7AA /* AppDelegate.swift */; };
 		91ADEAB820FD7786002CB7AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ADEAB720FD7786002CB7AA /* ViewController.swift */; };
 		91ADEABB20FD7786002CB7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91ADEAB920FD7786002CB7AA /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 		1AA5CBEE0D635DDC9C2BE10C /* Pods-Defood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Defood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Defood/Pods-Defood.debug.xcconfig"; sourceTree = "<group>"; };
 		8DF8D9E8433BB3FA1115EF62 /* Pods-Defood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Defood.release.xcconfig"; path = "Pods/Target Support Files/Pods-Defood/Pods-Defood.release.xcconfig"; sourceTree = "<group>"; };
 		917E44B420FEECA5006B1D5B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		917E44B9210020BA006B1D5B /* CoordinateController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateController1.swift; sourceTree = "<group>"; };
+		917E44BB21002123006B1D5B /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		91ADEAB220FD7786002CB7AA /* Defood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Defood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91ADEAB520FD7786002CB7AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91ADEAB720FD7786002CB7AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 			children = (
 				91ADEAB720FD7786002CB7AA /* ViewController.swift */,
 				91E7ED5F20FE9877009ACE01 /* PickingFoodViewController.swift */,
+				917E44B9210020BA006B1D5B /* CoordinateController1.swift */,
+				917E44BB21002123006B1D5B /* FoodViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				91ADEAB820FD7786002CB7AA /* ViewController.swift in Sources */,
+				917E44BC21002123006B1D5B /* FoodViewController.swift in Sources */,
 				91E7ED6020FE9877009ACE01 /* PickingFoodViewController.swift in Sources */,
 				91ADEAB620FD7786002CB7AA /* AppDelegate.swift in Sources */,
+				917E44BA210020BA006B1D5B /* CoordinateController1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
