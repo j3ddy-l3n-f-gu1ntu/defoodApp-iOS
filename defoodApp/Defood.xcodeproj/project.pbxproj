@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A0AB5A20FFB1C6007DEE1C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0AB5920FFB1C6007DEE1C /* Location.swift */; };
+		18A0AB5C20FFB1EC007DEE1C /* FoodPref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0AB5B20FFB1EC007DEE1C /* FoodPref.swift */; };
+		18A0AB5E20FFB203007DEE1C /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0AB5D20FFB203007DEE1C /* Results.swift */; };
 		91ADEAB620FD7786002CB7AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ADEAB520FD7786002CB7AA /* AppDelegate.swift */; };
 		91ADEAB820FD7786002CB7AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ADEAB720FD7786002CB7AA /* ViewController.swift */; };
 		91ADEABB20FD7786002CB7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91ADEAB920FD7786002CB7AA /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18A0AB5920FFB1C6007DEE1C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		18A0AB5B20FFB1EC007DEE1C /* FoodPref.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPref.swift; sourceTree = "<group>"; };
+		18A0AB5D20FFB203007DEE1C /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		91ADEAB220FD7786002CB7AA /* Defood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Defood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91ADEAB520FD7786002CB7AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91ADEAB720FD7786002CB7AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +62,9 @@
 			children = (
 				91ADEAB520FD7786002CB7AA /* AppDelegate.swift */,
 				91ADEAB720FD7786002CB7AA /* ViewController.swift */,
+				18A0AB5920FFB1C6007DEE1C /* Location.swift */,
+				18A0AB5B20FFB1EC007DEE1C /* FoodPref.swift */,
+				18A0AB5D20FFB203007DEE1C /* Results.swift */,
 				91ADEAB920FD7786002CB7AA /* Main.storyboard */,
 				91ADEABC20FD7787002CB7AA /* Assets.xcassets */,
 				91ADEABE20FD7787002CB7AA /* LaunchScreen.storyboard */,
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				91ADEAB820FD7786002CB7AA /* ViewController.swift in Sources */,
+				18A0AB5A20FFB1C6007DEE1C /* Location.swift in Sources */,
+				18A0AB5C20FFB1EC007DEE1C /* FoodPref.swift in Sources */,
 				91ADEAB620FD7786002CB7AA /* AppDelegate.swift in Sources */,
+				18A0AB5E20FFB203007DEE1C /* Results.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,13 +293,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C378TMZW64;
+				DEVELOPMENT_TEAM = 4235T5N2RP;
 				INFOPLIST_FILE = Defood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.GLWR.Defood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GLW.Defood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,13 +311,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C378TMZW64;
+				DEVELOPMENT_TEAM = 4235T5N2RP;
 				INFOPLIST_FILE = Defood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.GLWR.Defood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GLW.Defood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
