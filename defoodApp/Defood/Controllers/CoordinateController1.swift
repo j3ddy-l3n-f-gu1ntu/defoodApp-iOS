@@ -23,9 +23,10 @@ class CoordinateController1: UIViewController {
     var midpoint : (Double,Double)?{
         didSet{
             self.performSegue(withIdentifier: "toFood", sender: self)
+                        UserDefaults.standard.addSuite(named: "midpoint")
             
-            //            UserDefaults.standard.set(midpoint, forKey: "midpoint")
-            //            let mid = UserDefaults.standard.value(forKey: "midpoint") as! (Double,Double)
+            
+//                        UserDefaults.standard.set(midpoint, forKey: "midpoint")
             
         }
     }

@@ -15,7 +15,6 @@
 		91ADEAB820FD7786002CB7AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ADEAB720FD7786002CB7AA /* ViewController.swift */; };
 		91ADEABB20FD7786002CB7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91ADEAB920FD7786002CB7AA /* Main.storyboard */; };
 		91ADEABD20FD7787002CB7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91ADEABC20FD7787002CB7AA /* Assets.xcassets */; };
-		91E7ED6020FE9877009ACE01 /* PickingFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7ED5F20FE9877009ACE01 /* PickingFoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		91ADEABA20FD7786002CB7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91ADEABC20FD7787002CB7AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91ADEAC120FD7787002CB7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91E7ED5F20FE9877009ACE01 /* PickingFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickingFoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				91ADEAB720FD7786002CB7AA /* ViewController.swift */,
-				91E7ED5F20FE9877009ACE01 /* PickingFoodViewController.swift */,
 				917E44B9210020BA006B1D5B /* CoordinateController1.swift */,
 				917E44BB21002123006B1D5B /* FoodViewController.swift */,
 			);
@@ -219,7 +216,6 @@
 			files = (
 				91ADEAB820FD7786002CB7AA /* ViewController.swift in Sources */,
 				917E44BC21002123006B1D5B /* FoodViewController.swift in Sources */,
-				91E7ED6020FE9877009ACE01 /* PickingFoodViewController.swift in Sources */,
 				91ADEAB620FD7786002CB7AA /* AppDelegate.swift in Sources */,
 				917E44BA210020BA006B1D5B /* CoordinateController1.swift in Sources */,
 			);
