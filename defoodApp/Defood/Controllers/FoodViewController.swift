@@ -13,7 +13,7 @@ import CoreLocation
 
 class FoodViewController: UIViewController, UITextFieldDelegate {
     var location: CLLocation?
-    
+    //var ccOneClass: CoordinateController1!
     @IBOutlet weak var pickingFoodTextField: UITextField!
     
     override func viewDidLoad() {
@@ -46,6 +46,7 @@ class FoodViewController: UIViewController, UITextFieldDelegate {
             }
         }
         task.resume()
+       // print(ccOneClass.midpoint as! (Double,Double), "is the fucking midpoint")
     }
     
     
